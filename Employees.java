@@ -1,0 +1,4 @@
+interface Employees {
+    double totalSalary();
+}
+
