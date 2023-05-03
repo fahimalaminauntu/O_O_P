@@ -1,4 +1,4 @@
-class Employee {
+public class Employee implements Employees {
     private int employeeID;
     private String name;
     private double salary;
@@ -31,5 +31,9 @@ class Employee {
             total += employee.getSalary();
         }
         return total;
+    }
+    @Override
+    public double totalSalary() {
+        return 0;
     }
 }
