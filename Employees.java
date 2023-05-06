@@ -1,4 +1,0 @@
-interface Employees {
-    double totalSalary();
-}
-
